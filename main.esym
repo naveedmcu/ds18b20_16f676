@@ -1,0 +1,309 @@
+D G "__PCM__" 0 0 ""4.130""
+D G "__DEVICE__" 0 0 ""
+D G "__DATE__" 0 0 ""10-Jan-13""
+D G "__TIME__" 0 0 ""20:36:05"" "Standard Header file for the PIC16F676 device ////////////////"
+d G "PIN_A0" 2 19 "40"
+d G "PIN_A1" 2 20 "41"
+d G "PIN_A2" 2 21 "42"
+d G "PIN_A3" 2 22 "43"
+d G "PIN_A4" 2 23 "44"
+d G "PIN_A5" 2 24 "45"
+d G "PIN_C0" 2 26 "56"
+d G "PIN_C1" 2 27 "57"
+d G "PIN_C2" 2 28 "58"
+d G "PIN_C3" 2 29 "59"
+d G "PIN_C4" 2 30 "60"
+d G "PIN_C5" 2 31 "61"
+d G "FALSE" 2 34 "0"
+d G "TRUE" 2 35 "1"
+d G "BYTE" 2 37 "int8"
+d G "BOOLEAN" 2 38 "int1"
+d G "getc" 2 40 "getch"
+d G "fgetc" 2 41 "getch"
+d G "getchar" 2 42 "getch"
+d G "putc" 2 43 "putchar"
+d G "fputc" 2 44 "putchar"
+d G "fgets" 2 45 "gets"
+d G "fputs" 2 46 "puts"
+d G "WDT_FROM_SLEEP" 2 51 "3"
+d G "WDT_TIMEOUT" 2 52 "11"
+d G "MCLR_FROM_SLEEP" 2 53 "19"
+d G "MCLR_FROM_RUN" 2 54 "27"
+d G "NORMAL_POWER_UP" 2 55 "25"
+d G "BROWNOUT_RESTART" 2 56 "26"
+d G "T0_INTERNAL" 2 63 "0"
+d G "T0_EXT_L_TO_H" 2 64 "32"
+d G "T0_EXT_H_TO_L" 2 65 "48"
+d G "T0_DIV_1" 2 67 "8"
+d G "T0_DIV_2" 2 68 "0"
+d G "T0_DIV_4" 2 69 "1"
+d G "T0_DIV_8" 2 70 "2"
+d G "T0_DIV_16" 2 71 "3"
+d G "T0_DIV_32" 2 72 "4"
+d G "T0_DIV_64" 2 73 "5"
+d G "T0_DIV_128" 2 74 "6"
+d G "T0_DIV_256" 2 75 "7"
+d G "T0_8_BIT" 2 78 "0"
+d G "RTCC_INTERNAL" 2 80 "0" "The following are provided for compatibility"
+d G "RTCC_EXT_L_TO_H" 2 81 "32" "with older compiler versions"
+d G "RTCC_EXT_H_TO_L" 2 82 "48"
+d G "RTCC_DIV_1" 2 83 "8"
+d G "RTCC_DIV_2" 2 84 "0"
+d G "RTCC_DIV_4" 2 85 "1"
+d G "RTCC_DIV_8" 2 86 "2"
+d G "RTCC_DIV_16" 2 87 "3"
+d G "RTCC_DIV_32" 2 88 "4"
+d G "RTCC_DIV_64" 2 89 "5"
+d G "RTCC_DIV_128" 2 90 "6"
+d G "RTCC_DIV_256" 2 91 "7"
+d G "RTCC_8_BIT" 2 92 "0"
+d G "WDT_18MS" 2 104 "8"
+d G "WDT_36MS" 2 105 "9"
+d G "WDT_72MS" 2 106 "10"
+d G "WDT_144MS" 2 107 "11"
+d G "WDT_288MS" 2 108 "12"
+d G "WDT_576MS" 2 109 "13"
+d G "WDT_1152MS" 2 110 "14"
+d G "WDT_2304MS" 2 111 "15"
+d G "T1_DISABLED" 2 117 "0"
+d G "T1_INTERNAL" 2 118 "5"
+d G "T1_EXTERNAL" 2 119 "7"
+d G "T1_EXTERNAL_SYNC" 2 120 "3"
+d G "T1_CLK_OUT" 2 122 "8"
+d G "T1_DIV_BY_1" 2 124 "0"
+d G "T1_DIV_BY_2" 2 125 "0x10"
+d G "T1_DIV_BY_4" 2 126 "0x20"
+d G "T1_DIV_BY_8" 2 127 "0x30"
+d G "T1_GATE" 2 129 "0x40"
+d G "T1_GATE_INVERTED" 2 130 "0xC0"
+d G "NC_NC_NC_NC" 2 135 "0x0ff07"
+d G "NC_NC" 2 136 "0x0ff07"
+d G "A0_A1" 2 137 "0x3ff02"
+d G "A1_VR_OUT_ON_A2" 2 138 "0x6fb03"
+d G "A1_VR" 2 139 "0x2ff04"
+d G "A0_A1_OUT_ON_A2" 2 140 "0x3fb01"
+d G "COMP_INVERT" 2 143 "0x10"
+d G "VREF_LOW" 2 150 "0xa0"
+d G "VREF_HIGH" 2 151 "0x80"
+d G "ADC_OFF" 2 159 "0" "ADC Off"
+d G "ADC_CLOCK_DIV_2" 2 160 "0x100"
+d G "ADC_CLOCK_DIV_4" 2 161 "0x40"
+d G "ADC_CLOCK_DIV_8" 2 162 "0x10"
+d G "ADC_CLOCK_DIV_32" 2 163 "0x20"
+d G "ADC_CLOCK_DIV_16" 2 164 "0x50"
+d G "ADC_CLOCK_DIV_64" 2 165 "0x60"
+d G "ADC_CLOCK_INTERNAL" 2 166 "0x30" "Internal 2-6us"
+d G "sAN0" 2 171 "1" "| A0"
+d G "sAN1" 2 172 "2" "| A1"
+d G "sAN2" 2 173 "4" "| A2"
+d G "sAN3" 2 174 "8" "| A4"
+d G "sAN4" 2 175 "16" "| C0"
+d G "sAN5" 2 176 "32" "| C1"
+d G "sAN6" 2 177 "64" "| C2"
+d G "sAN7" 2 178 "128" "| C3"
+d G "NO_ANALOGS" 2 179 "0" "None"
+d G "ALL_ANALOG" 2 180 "255" "A0 A1 A2 A4 C0 C1 C2 C3"
+d G "VSS_VDD" 2 183 "0x0000" "| Range 0-Vdd"
+d G "VSS_VREF" 2 184 "0x4000" "| Range 0-VrefH"
+d G "ADC_START_AND_READ" 2 187 "7" "This is the default if nothing is specified"
+d G "ADC_START_ONLY" 2 188 "1"
+d G "ADC_READ_ONLY" 2 189 "6"
+d G "L_TO_H" 2 197 "0x40"
+d G "H_TO_L" 2 198 "0"
+d G "GLOBAL" 2 200 "0x0BC0"
+d G "PERIPH" 2 201 "0x0B40"
+d G "INT_RTCC" 2 202 "0x000B20"
+d G "INT_EXT_L2H" 2 203 "0x50000B10"
+d G "INT_EXT_H2L" 2 204 "0x60000B10"
+d G "INT_EXT" 2 205 "0x000B10"
+d G "INT_AD" 2 206 "0x008C40"
+d G "INT_TIMER1" 2 207 "0x008C01"
+d G "INT_TIMER0" 2 208 "0x000B20"
+d G "INT_EEPROM" 2 209 "0x008C80"
+d G "INT_COMP" 2 210 "0x008C08"
+d G "INT_RA" 2 211 "0x00FF0B08"
+d G "INT_RA0" 2 212 "0x0010B08"
+d G "INT_RA1" 2 213 "0x0020B08"
+d G "INT_RA2" 2 214 "0x0040B08"
+d G "INT_RA3" 2 215 "0x0080B08"
+d G "INT_RA4" 2 216 "0x0100B08"
+d G "INT_RA5" 2 217 "0x0200B08"
+D G "Lo" 1 4 "(param) ((char *)&param)[0]"
+D G "Hi" 1 5 "(param) ((char *)&param)[1]"
+D G "Higher" 1 6 "(param) ((char *)&param)[2]"
+D G "Highest" 1 7 "(param) ((char *)&param)[3]"
+D G "Lo" 1 9 "(param) ((char *)&param)[0]"
+D G "Hi" 1 10 "(param) ((char *)&param)[1]"
+D G "Higher" 1 11 "(param) ((char *)&param)[2]"
+D G "Highest" 1 12 "(param) ((char *)&param)[3]"
+D G "DATA_HIGH" 1 24 "output_high(PIN_C3)"
+D G "DATA_LOW" 1 25 "output_low(PIN_C3)"
+D G "CLOCK_HIGH" 1 27 "output_high(PIN_C4)"
+D G "CLOCK_LOW" 1 28 "output_low(PIN_C4)"
+D G "ENABLE_HIGH" 1 30 "output_high(PIN_C5)"
+D G "ENABLE_LOW" 1 31 "output_low(PIN_C5)"
+D G "unit_on" 1 34 "output_LOW (PIN_C0);"
+D G "unit_off" 1 35 "output_HIGH(PIN_C0);"
+D G "ten_on" 1 37 "output_LOW (PIN_C1);"
+D G "ten_off" 1 38 "output_HIGH(PIN_C1);"
+D G "thu_on" 1 40 "output_LOW (PIN_C2);"
+D G "thu_off" 1 41 "output_HIGH(PIN_C2);"
+D G "relay_on" 1 45 "output_low  (PIN_A1);"
+D G "relay_off" 1 46 "output_high (PIN_A1);"
+D G "SET_button" 1 48 "INPUT_STATE(PIN_A2)"
+D G "UP_button" 1 49 "INPUT_STATE(PIN_A3)"
+D G "DOWN_button" 1 50 "INPUT_STATE(PIN_A4)"
+D G "ONE_WIRE_PIN" 3 27 "PIN_A0"
+C L "onewire_reset" 3 29 1 "*"
+C L "onewire_reset" 3 31 4 "*"
+F G "onewire_reset" 3 38 "void()" "OK if just using a single permanently connected device"
+C L "onewire_reset" 3 31 1 "FUNCTION"
+C L "onewire_reset" 3 31 1 "FUNCTION"
+C L "onewire_reset" 3 31 1 "FUNCTION"
+C L "onewire_write" 3 47 4 "*"
+V L "data" 3 54 "int8"
+F G "onewire_write" 3 54 "void(int8 data)"
+V L "count" 3 56 "int8"
+C L "onewire_write" 3 47 1 "FUNCTION"
+C L "onewire_write" 3 47 1 "FUNCTION"
+C L "onewire_write" 3 47 1 "FUNCTION"
+C L "onewire_write" 3 47 1 "FUNCTION"
+C L "onewire_write" 3 47 1 "FUNCTION"
+C L "onewire_read" 3 69 4 "*"
+F G "onewire_read" 3 76 "int8()"
+V L "count" 3 78 "int8"
+V L "data" 3 78 "int8"
+C L "onewire_read" 3 69 1 "FUNCTION"
+C L "onewire_read" 3 69 1 "FUNCTION"
+C L "onewire_read" 3 69 1 "FUNCTION"
+C L "onewire_read" 3 69 1 "FUNCTION"
+C L "onewire_read" 3 69 1 "FUNCTION"
+D G "unit_on" 0 5 "output_high(PIN_C0);"
+D G "unit_off" 0 6 "output_low(PIN_C0);"
+D G "ten_on" 0 8 "output_high (PIN_C1);"
+D G "ten_off" 0 9 "output_low(PIN_C1);"
+D G "thu_on" 0 11 "output_high (PIN_C2);"
+D G "thu_off" 0 12 "output_low(PIN_C2);"
+V G "digit" 0 14 "int8[14]"
+V G "i" 0 16 "int8"
+V G "data" 0 16 "int8"
+V G "ii" 0 16 "int8"
+V G "value" 0 17 "int16"
+V G "set_flagh" 0 18 "int1"
+V G "set_flagl" 0 18 "int1"
+V G "SET_SET" 0 20 "int1"
+V G "min" 0 21 "int16"
+V G "max" 0 22 "int16"
+V L "data" 0 24 "int8"
+F G "display" 0 24 "void(int8 data)"
+V L "dat" 0 26 "int8" "dat = digit[data];"
+C L "display" 0 4 1 "FUNCTION"
+C L "display" 0 4 1 "FUNCTION"
+C L "display" 0 4 1 "FUNCTION"
+V G "thu" 0 43 "int8"
+V G "ten" 0 43 "int8"
+V G "unit" 0 43 "int8"
+V G "flag" 0 44 "int8"
+F G "display" 0 46 "void()"
+V G "leak" 4 1 "int1"
+F G "ds1820_read" 4 3 "int16()"
+V L "busy" 4 5 "int8"
+V L "temp1" 4 5 "int8"
+V L "temp2" 4 5 "int8"
+V L "temp3" 4 6 "sint16"
+V L "result" 4 7 "int16"
+C L "ds1820_read" 4 31 3 "FUNCTION"
+C L "ds1820_read" 4 31 2 "FUNCTION"
+C L "ds1820_read" 4 31 1 "FUNCTION"
+V G "counter" 0 99 "int32"
+V G "delay_flag" 0 100 "int1"
+V G "relay_on_flag" 0 101 "int1"
+F G "MAIN" 0 102 "void()"
+C L "MAIN" 0 120 1 "FUNCTION"
+C L "MAIN" 0 120 1 "FUNCTION"
+V L "counter123" 0 131 "int8"
+C L "MAIN" 0 120 1 "FUNCTION"
+C L "MAIN" 0 120 2 "FUNCTION"
+F B "reset_cpu" 0 0
+F B "abs" 1 0
+F B "sleep" 0 0
+F B "delay_cycles" 1 0
+F B "read_bank" 2 0
+F B "write_bank" 3 0
+F B "shift_left" 2 2
+F B "shift_right" 2 2
+F B "rotate_left" 2 0
+F B "rotate_right" 2 0
+F B "_mul" 2 0
+F B "memset" 3 0
+F B "isamoung" 2 0
+F B "isamong" 2 0
+F B "bit_set" 2 0
+F B "bit_clear" 2 0
+F B "bit_test" 2 0
+F B "toupper" 1 0
+F B "tolower" 1 0
+F B "swap" 1 0
+F B "printf" 1 255
+F B "fprintf" 1 255
+F B "sprintf" 1 255
+F B "make8" 2 0
+F B "make16" 2 0
+F B "make32" 1 255
+F B "label_address" 1 1
+F B "goto_address" 1 0
+F B "_va_arg" 1 0
+F B "offsetofbit" 2 2
+F B "enable_interrupts" 1 0
+F B "disable_interrupts" 1 0
+F B "interrupt_active" 1 0
+F B "clear_interrupt" 1 0
+F B "jump_to_isr" 1 0
+F B "ext_int_edge" 1 2
+F B "read_eeprom" 1 0
+F B "write_eeprom" 2 0
+F B "strcpy" 2 0
+F B "memcpy" 3 0
+F B "strstr100" 2 0
+F B "output_high" 1 0
+F B "output_low" 1 0
+F B "input" 1 0
+F B "input_state" 1 0
+F B "output_float" 1 0
+F B "output_drive" 1 0
+F B "output_bit" 1 1
+F B "output_toggle" 1 0
+F B "output_a" 1 0
+F B "output_c" 1 0
+F B "input_a" 0 0
+F B "input_c" 0 0
+F B "set_tris_a" 1 0
+F B "set_tris_c" 1 0
+F B "get_tris_a" 0 0
+F B "get_tris_c" 0 0
+F B "input_change_a" 0 0
+F B "input_change_c" 0 0
+F B "port_a_pullups" 1 0
+F B "setup_counters" 2 0
+F B "setup_wdt" 1 0
+F B "restart_cause" 0 0
+F B "restart_wdt" 0 0
+F B "get_rtcc" 0 0
+F B "set_rtcc" 1 0
+F B "get_timer0" 0 0
+F B "set_timer0" 1 0
+F B "setup_comparator" 1 0
+F B "setup_port_a" 1 2
+F B "setup_adc_ports" 1 2
+F B "get_adc_ports" 0 0
+F B "setup_adc" 1 0
+F B "set_adc_channel" 1 0
+F B "read_adc" 0 1
+F B "adc_done" 0 0
+F B "setup_timer_0" 1 0
+F B "setup_vref" 1 0
+F B "setup_timer_1" 1 0
+F B "get_timer1" 0 0
+F B "set_timer1" 1 0
+F B "delay_ms" 1 0
+F B "delay_us" 1 0

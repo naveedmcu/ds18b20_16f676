@@ -1,0 +1,56 @@
+
+ROM used: 1012 (99%)
+          1012 (99%) including unused fragments
+
+          1 Average locations per line
+          3 Average locations per statement
+
+RAM used: 23 (36%) at main() level
+          37 (58%) worst case
+
+Stack used: 3 worst case (out of 8 total available)
+
+Lines Stmts  %   Files
+----- ----- ---  -----
+  283   197  65  main.c
+   54     0   0  main.h
+  220     0   0  C:\Program Files\PICC\devices\16F676.h
+   91    22   7  ONE_wire.c
+   42    82  27  ds18B20.c
+----- -----
+  690   301 Total
+
+Page ROM  %  RAM   Vol Diff  Functions:
+---- --- --- ---   --- ----  ----------
+0     20   2   1             @delay_ms1
+0     21   2   0    86  1.3  onewire_reset
+0     32   3   2   272  4.3  onewire_write
+0     37   4   2   297  3.8  onewire_read
+0     18   2   0             @const66
+0     41   4   3   379  5.8  display
+0    146  14   2  1180  5.4  display
+0     37   4   5             @DIV1616
+0    103  10   7   633  4.4  ds1820_read
+ Inline        6             @MULS1616
+0    547  54   1  4902 11.2  MAIN
+ Inline        0             @cinit1
+
+Program metrics:
+    Functions               7
+    Statements              301
+    Comments                140
+    Volume (V)              10010
+    Difficulty (D)          36.8
+    Effort to implement (E) 368403
+    Time to implement (T)   5 hours, 41 minutes
+    Est Delivered Bugs (B)  2
+    Cyclomatic Complexity   32
+    Maintainability (MI)    101
+
+ Segment     Used  Free
+-----------  ----  ----
+00000-00003     4  0  
+00004-003FF  1008  12  
+
+
+

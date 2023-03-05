@@ -1,0 +1,105 @@
+004-005 @READ_PROGRAM_MEMORY8.P1
+019.6   C1OUT
+020     @SCRATCH
+021     @SCRATCH
+021     _RETURN_
+022     @SCRATCH
+023     @SCRATCH
+024     i
+025     data
+026     ii
+027-028 value
+029.0   set_flagh
+029.1   set_flagl
+029.2   SET_SET
+029.3   leak
+029.4   delay_flag
+029.5   relay_on_flag
+02A-02B min
+02C-02D max
+02E     thu
+02F     ten
+030     unit
+031     flag
+032-035 counter
+036     MAIN.counter123
+037     ds1820_read.busy
+037     MAIN.@SCRATCH1
+038     ds1820_read.temp1
+039     ds1820_read.temp2
+03A-03B ds1820_read.temp3
+03C-03D ds1820_read.result
+03E     @delay_ms1.P1
+03E     onewire_write.data
+03E     display.data
+03E     onewire_read.count
+03E-03F @MULS1616.P1
+03E     display.@SCRATCH1
+03F     display.dat
+03F     onewire_read.data
+03F     onewire_write.count
+03F     display.@SCRATCH2
+040-041 @DIV1616.P1
+040-041 @MULS1616.P2
+040     display.@SCRATCH1
+042-043 @DIV1616.P1
+042     @MULS1616.@SCRATCH1
+043     @MULS1616.@SCRATCH2
+044     @DIV1616.@SCRATCH1
+085     TRISAbits
+085.0   TRISA_B0
+09B-09C @READ_PROGRAM_MEMORY8.P1
+
+ROM Allocation:
+006A  @delay_ms1
+0110  onewire_reset
+0125  onewire_write
+0145  onewire_read
+000A  digit
+0041  display
+007E  display
+001C  @DIV1616
+016A  ds1820_read
+019A  @MULS1616
+01D1  MAIN
+01D1  @cinit1
+01F2  @cinit2
+
+
+User Memory space: 
+
+User Memory space: 
+
+Project Directory:
+    E:\NAVEED\SAY2\DS18B20 Control Using 16F676\
+
+Project Files:
+    main.c                                                  [10-Jan-13 20:34  CRC=5E31815D]
+    main.h                                                  [25-Dec-12 00:14  CRC=BDAB8C6E]
+    C:\Program Files\PICC\devices\16F676.h                  [28-Feb-12 13:43  CRC=93CE3F47]
+    ONE_wire.c                                              [02-Sep-12 18:30  CRC=22BA8237]
+    ds18B20.c                                               [22-Dec-12 23:16  CRC=33999347]
+
+Source signature=3998F5D7
+
+Units:
+    main (main)
+
+Compiler Settings:
+    Processor:      PIC16F676
+    Pointer Size:   8
+    ADC Range:      0-1023
+    Opt Level:      9
+    Short,Int,Long: UNSIGNED: 1,8,16
+    Float,Double:   32,32
+
+Output Files:
+    Errors:      main.err
+    Ext Symbols: main.esym
+    INHX8:       main.hex
+    Symbols:     main.sym
+    List:        main.lst
+    Debug/COFF:  main.cof
+    Project:     main.PJT
+    Call Tree:   main.tre
+    Statistics:  main.STA
